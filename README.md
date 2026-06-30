@@ -43,7 +43,7 @@ chmod +x run_merge.sh
 如果你想直接通过命令行传递参数，可以参考以下格式：
 
 ```bash
-python3 scripts/merge_lora1.py \
+python3 merge_lora.py \
     --repo-root "" \
     --checkpoint_dir "" \
     --config_name "" \
