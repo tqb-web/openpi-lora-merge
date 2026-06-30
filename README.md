@@ -14,7 +14,7 @@
 
 ```bash
 # 激活你的虚拟环境
-source /path/to/your/openpi/.venv/bin/shift/activate
+source /path/to/your/openpi/.venv/bin/activate
 
 ```
 
