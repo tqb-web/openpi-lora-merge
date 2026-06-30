@@ -7,7 +7,7 @@ OUTPUT_PATH="" # 合并后的模型输出路径
 PRECISION="" # bfloat16 or float32
 
 # 执行合并脚本
-python3 scripts/merge_lora1.py \
+python3 merge_lora.py \
     --repo-root "$REPO_ROOT" \
     --checkpoint_dir "$CHECKPOINT_DIR" \
     --config_name "$CONFIG_NAME" \
